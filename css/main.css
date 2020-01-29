@@ -23,8 +23,6 @@
     opacity: 0.3;
 }
 
-
-
 /*section b styles*/
 #section-b{
     background-color: #FF5722;
@@ -37,4 +35,25 @@
     background-position: center bottom;
     height: 80vh;
     padding-top: 100px;
+}
+/*styling the login and sign up forms*/
+.auth-signup{
+    background-color: indigo;
+    padding: 20px;
+    border-radius:10px;
+    box-shadow: 3px 3px 3px 3px #FF5722;
+}
+.auth-signup img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.auth-signup .content-title{
+    text-align: center;
+    font-family: monospace;
+
+}
+.auth-signup hr{
+    padding: 2px;
+    margin: 0;
 }
